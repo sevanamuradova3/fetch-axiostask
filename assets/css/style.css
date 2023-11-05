@@ -1,0 +1,52 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: oblique;
+}
+.container{width:100%;
+ height: 800px;
+background-color: rgb(193, 249, 236);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.forms{color: white;
+    width: 40%;
+    height: 500px;
+    background-color: #115f5f;
+    border: #1c9e9e;
+    border-radius: 6px;
+    border-color: black;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    
+}
+.formItem{
+    margin-bottom: 20px;
+}
+label{display: block;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: medium;
+
+}
+input{width:300px;
+    height: 30px;
+border: 1px solid #ccc;
+border-radius: 3px;
+
+}
+button{width: 300px;
+    height: 30px;
+    background-color: aliceblue;
+    border: none;
+    color: #115f5f;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(126, 215, 126);
+}
